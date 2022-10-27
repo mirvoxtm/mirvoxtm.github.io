@@ -12,10 +12,6 @@
 		<meta name="apple-mobile-web-app-title" content="‹› MIRVOX">
 		<meta name="application-name"           content="‹› MIRVOX">
 
-		<!-- SCRIPTS AND GOODIES -->
-		<link rel="stylesheet" href="https://unpkg.com/@auroratide/typewritten-text/lib/style.css" />
-		<script type="module" src="https://unpkg.com/@auroratide/typewritten-text/lib/define.js"></script>
-
 		<!-- CASCADE STYLES SHEETS -->
 		<style type="text/css">
 		@font-face { font-family: ScB; src: url('res/fnt/GothamMedium.ttf'); }
@@ -25,7 +21,7 @@
 		@font-face { font-family: abg; src: url('res/fnt/aBigDeal.otf');} 
 
 	body {
-    background-color: #1f1f23;  /* fallback for old browsers */
+    background-color: #1f1f23;
     margin: 0;
     }
 
@@ -33,146 +29,9 @@
     }
 
 section#cabeca {
-	background: -webkit-linear-gradient(to right, #e7e7e8, #e38940 410%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #e7e7e8, #e38940 410%) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #e7e7e8, #e38940 410%); 
 }
 
-	.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 10vw;
-    z-index: 2;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-  }
-  
-  .dropdown-content a {
-    position: relative;
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-  }
-  
-  .dropdown-content a:hover {
-    background-color: rgb(255, 255, 255);
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display:grid;
-  }
-
-  .dropdown {
-    margin-top: 17px;
-    float: right;
-    font-family: ScB;
-    z-index: 2;
-    max-width: 100%;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-  }
-
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: rgb(255, 255, 255);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    z-index: 2;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-  }
-  
-
-.navbar {
-	background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  	background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-  }  
-
-  .seriebar {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-    float: left;
-    display: flex;
-  }  
-
-  .navtexto {
-    padding: 12px 6px;
-    float: left;
-    font-size: 1em;
-  }
-
-  .navtexto a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    max-width: 100%;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-}
-  
-  .navbarcont a {
-    margin-top: 9px;
-    display: block;
-    float: right;
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 22px 15px;
-    font-family: ScB;
-    text-decoration: none;
-    max-width: 100%;
-    border-bottom-right-radius: 20px; border-bottom-left-radius: 20px
-
-
-  }
-
-  .selecserie a {
-    margin-top: 9px;
-    display: block;
-    float: right;
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 22px 15px;
-    font-family: ScB;
-    text-decoration: none;
-    max-width: 100%;
-
-  }
-
-  .navbarimg {
-    padding: 12px 15px;
-    float: left;
-  }
-  
-  .navbarcont a:hover, .dropdown:hover .dropbtn {
-    text-decoration: underline;
-    max-width: 100%;
-
-  }
-  
-  .navbar .icon {
-    display: none;
-  }
-
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
 </style>
 </head>
 
