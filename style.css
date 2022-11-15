@@ -1,0 +1,45 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;}
+	50% {
+		background-position: 100% 50%;}
+	100% {
+		background-position: 0% 50%;}
+}
+
+.degrade {
+	background: linear-gradient(-45deg, #131318, #0e0e13, #1a1a22, #0f0f11);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #ababab #ffffff;
+  }
+
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+	background: linear-gradient(-45deg, #1f1f1f, #2a2828, #232525, #181818);
+    	animation: gradient 15s ease infinite;
+
+}
+
+*::-webkit-scrollbar-thumb {
+    position: absolute;
+    background-color: #333333;
+    border-radius: 10px;
+    border: 2px solid #333333;
+}
+
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.005);
+  }
