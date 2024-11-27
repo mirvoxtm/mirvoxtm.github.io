@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -139,4 +140,75 @@ footer {
     width: 120%;
     height: 90vh;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .term {
+        width: 85%;
+        padding: 20px;
+        margin: 50px;
+    }
+
+    .button_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    .main_buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main_buttons button {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .side-by-side > div {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .term {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .button_container button {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .main_buttons button {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        width: 140%;
+    }
 }
