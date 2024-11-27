@@ -19,3 +19,13 @@ function downloadCV() {
         button.innerHTML = originalContent;
     }, 1000);
 }
+
+function openProjects() {
+    const projects = document.getElementById('projects');
+    projects.scrollIntoView({ behavior: 'smooth' });
+}
+
+function openMain() {
+    const main = document.getElementById('main');
+    main.scrollIntoView({ behavior: 'smooth' });
+}

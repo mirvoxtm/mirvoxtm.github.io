@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     background-color: #FB1046;
     overflow-x: hidden;
+    overflow-y: hidden;
     font-family: 'Poppins', 'SF Pro Display', Arial, sans-serif;
 }
 
@@ -140,6 +141,36 @@ footer {
     width: 120%;
     height: 90vh;
     overflow: hidden;
+}
+
+.project {
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.project h1 {
+    font-size: 1.0em;
+    margin: 0;
+    margin-bottom: -10px;
+    padding: 0;
+    color: #FB1046;
+}
+
+.project p {
+    font-size: 12px;
+    color: gray;
+}
+
+.project img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.project-list {
+    overflow-y: auto;
+    height: 50vh;
 }
 
 @media screen and (max-width: 1000px) {

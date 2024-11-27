@@ -17,7 +17,7 @@
   <script> AOS.init(); </script>
 
   <main>
-    <div class="container">
+    <div class="container" id="main">
       <div class="term"  data-aos="zoom-in">
         
         <center>
@@ -52,11 +52,89 @@
         </div>
 
         <div class="main_buttons">
-          <button><i class="fas fa-code-branch"></i>Projetos</button>
+          <button onclick="openProjects()"><i class="fas fa-code-branch"></i>Projetos</button>
           <button onclick="downloadCV()" id="cv-button"><i class="fas fa-file-alt"></i>Currículo</button>
           <button><i class="fas fa-paper-plane"></i>Contato</button>
         </div>
       </div>
+    </div>
+    
+    <div id="projects">
+      <div class="container">
+        <div class="term"  data-aos="zoom-in">
+
+          <div id="project-list" class="project-list">
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/blackconsult.png">
+                <div style="margin-top: 10px;">
+                  <h1>BlackConsult</h1>
+                  <p>Aplicação Desktop de consultas de dados bancários em tempo real para empresas de crédito e empréstimo.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/blackfilter.png">
+                <div style="margin-top: 10px;">
+                  <h1>BlackFilters</h1>
+                  <p>Aplicação Desktop para inserção, extração e filtragem em massa de planilhas e dados.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/blackconsultweb.png">
+                <div style="margin-top: 10px;">
+                  <h1>SistemaConsult</h1>
+                  <p>Um serviço de consultas de dados bancários utilizando de sistemas de automação.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/inout.png">
+                <div style="margin-top: 10px;">
+                  <h1>iNout</h1>
+                  <p>Aplicação Mobile para simples anotações de textos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/kaosearch.png">
+                <div style="margin-top: 10px;">
+                  <h1>Kaosearch</h1>
+                  <p>Um serviço de pesquisa de Kaomojis usando de termos e tags em comum.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="side-by-side">
+                <img src="res/pingo.png">
+                <div style="margin-top: 10px;">
+                  <h1>Pingo</h1>
+                  <p>Um pequeno jogo de Bingo no qual as entradas são aleatorizadas via APIs.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="main_buttons">
+            <button onclick="openMain()"><i class="fas fa-menu"></i>Retornar</button>
+            <button><i class="fas fa-paper-plane"></i>Contato</button>
+          </div>   
+
+        </div>
+      </div>  
+
     </div>
   </main>
 
