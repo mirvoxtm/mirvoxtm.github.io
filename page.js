@@ -29,3 +29,7 @@ function openMain() {
     const main = document.getElementById('main');
     main.scrollIntoView({ behavior: 'smooth' });
 }
+
+function sendMail() {
+    window.location.href = 'mailto:mailto:miguel.aguiar1906@gmail.com';
+}
